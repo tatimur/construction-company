@@ -1,0 +1,118 @@
+body {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+.wrap {
+    width: 1110px;
+    margin: 0 auto;
+}
+header {
+    background: url(/img/bgtop.svg) no-repeat;
+    height: 740px;
+}
+.header h1,
+.header p {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+h1 {
+    font-size: 64px;
+    height: 171px;
+}
+/*наши проекты*/
+.projects {
+    padding-top: 200px; 
+}
+h2 {
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #404149;
+}
+.projects-main {
+    display: flex;
+    position: relative;
+}
+.projects-h3 {
+    color: #404149;
+    font-size: 24px;
+    line-height: 36px;
+}
+.projects-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    width: 350px;
+}
+/*статистика*/
+.satistic {
+    display: flex;
+    background: #F7F7F7;
+    justify-content: space-around;
+    position: absolute;
+    top: 570px;
+    width: 1110px;
+    height: 300px;
+}
+.satistic-content {
+    padding-top: 50px;
+}
+.number {
+    font-size: 72px;
+    line-height: 107px;
+    color: #F7654A;
+    margin: 0;
+}
+.year {
+    margin: 0;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+}
+.market {
+    margin: 0;
+    color: #999999;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+/*умные проекты*/
+.clever-wrap {
+    background: #F7654A;
+    height: 181px;
+}
+.clever-h {
+    color: white;
+    margin: 0;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+}
+.clever-txt {
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    letter-spacing: 0.02em;
+}
+.clever-project {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 37px;
+}
+.button {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 21px;
+    width: 175px;
+    height: 49px;
+    border: none;
+}
