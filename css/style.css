@@ -116,3 +116,27 @@ h2 {
     height: 49px;
     border: none;
 }
+/*чем мы занимаемся*/
+.works-h2 {
+    color: #000000;
+    font-size: 36px;
+    line-height: 53px;
+}
+.works-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.works-item-one {
+    margin: 10px;
+    width: 350px;
+    height: 245px;
+    background: #F7F7F7;
+    text-align: center;
+    display: block;
+}
+/*фото портфолио*/
+.photos {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
