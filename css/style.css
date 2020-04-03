@@ -11,6 +11,7 @@ body {
 header {
     background: url(/img/bgtop.svg) no-repeat;
     height: 740px;
+    width: 100%;
 }
 .header h1,
 .header p {
@@ -139,4 +140,109 @@ h2 {
     display: flex;
     margin: 0;
     flex-wrap: wrap;
+}
+/*вопросы*/
+/*партнеры*/
+.partners {
+    background: #404149;
+    height: 364px;
+}
+.partners-h2 {
+    padding-top: 90px;
+    color: white;
+    font-size: 36px;
+    line-height: 53px;
+}
+.partners-item {
+    display: flex;
+}
+.partners-item>div {
+    padding-top: 30px;
+    padding-right: 6%;
+}
+/*отзывы*/
+.feedback h2 {
+    color: black;
+    font-size: 36px;
+    line-height: 53px;
+}
+.feedback-main {
+    display: flex;
+}
+.feedback-main-one {
+    background: #F7F7F7;
+    width: 350px;
+    height: 259px;
+}
+.feedback-main-one p {
+    color: #999999;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    width: 291px;
+    padding-left: 30px;
+}
+.feedback-main-one img {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.feedback-main-one:nth-child(1),
+.feedback-main-one:nth-child(2) {
+    margin-right: 20px;
+}
+.feedback-p {
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    display: flex;
+}
+.feedback-p span {
+    color: #F7654A;
+}
+.feedback-p p:nth-child(1),
+.feedback-p p:nth-child(2)  {
+    padding-right: 58px;
+}
+/*контакты*/
+.contacts {
+    margin-top: 90px;
+}
+.contact-item {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+}
+.contact-item div:nth-child(4) .email {
+    padding-top: 12px;
+}
+.mail {
+    color: #F7654A;
+}
+.gray {
+    color: #999999;
+}
+/*футер*/
+.footer {
+    background: #404149;
+    height: 82px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Open Sans;
+  
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.footer-wrap {
+    display: flex;
+    vertical-align: middle;
 }
