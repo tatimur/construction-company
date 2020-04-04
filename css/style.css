@@ -133,7 +133,11 @@ h2 {
     height: 245px;
     background: #F7F7F7;
     text-align: center;
-    display: block;
+    display: flex;
+}
+.works-item-content {
+    width: 350px;
+    padding-top: 65px;
 }
 /*фото портфолио*/
 .photos {
@@ -238,11 +242,7 @@ h2 {
 }
 .footer-content {
     display: flex;
+    height: 82px;
     justify-content: space-between;
-
-    
-}
-.footer-wrap {
-    display: flex;
-    vertical-align: middle;
+    align-items: center;
 }
