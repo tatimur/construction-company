@@ -52,6 +52,9 @@ h2 {
     font-weight: normal;
     width: 350px;
 }
+.img-button {
+    padding-right: 15px;
+}
 /*статистика*/
 .satistic {
     display: flex;
@@ -155,6 +158,9 @@ h2 {
 .questions-group {
     display: flex;
 }
+.questions-group img {
+    padding-right: 10px;
+}
 .questions {
     padding-bottom: 60px;
 }
@@ -192,6 +198,9 @@ h2 {
     padding-right: 6%;
 }
 /*отзывы*/
+.feedback {
+    margin: 100px 0;
+}
 .feedback h2 {
     color: black;
     font-size: 36px;
@@ -239,6 +248,7 @@ h2 {
 /*контакты*/
 .contacts {
     margin-top: 90px;
+    margin-bottom: 100px;
 }
 .contact-item {
     display: flex;
