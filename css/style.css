@@ -26,6 +26,7 @@ h1 {
 /*наши проекты*/
 .projects {
     padding-top: 200px; 
+    padding-bottom: 80px;
 }
 h2 {
     font-size: 36px;
@@ -118,6 +119,10 @@ h2 {
     border: none;
 }
 /*чем мы занимаемся*/
+.works {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
 .works-h2 {
     color: #000000;
     font-size: 36px;
@@ -144,8 +149,30 @@ h2 {
     display: flex;
     margin: 0;
     flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 /*вопросы*/
+.questions-group {
+    display: flex;
+}
+.questions {
+    padding-bottom: 60px;
+}
+.questions-items h3 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+}
+.questions-items p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    width: 730px;
+
+}
 /*партнеры*/
 .partners {
     background: #404149;
