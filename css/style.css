@@ -10,9 +10,15 @@ body {
 }
 header {
     background: url(/img/bgtop.svg) no-repeat;
-    height: 740px;
     width: 100%;
 }
+
+.css-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .header h1,
 .header p {
     text-align: center;
@@ -63,7 +69,6 @@ h2 {
     position: absolute;
     top: 570px;
     width: 1110px;
-    height: 300px;
 }
 .satistic-content {
     padding-top: 50px;
@@ -90,7 +95,6 @@ h2 {
 /*умные проекты*/
 .clever-wrap {
     background: #F7654A;
-    height: 181px;
 }
 .clever-h {
     color: white;
@@ -110,7 +114,8 @@ h2 {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    padding-top: 37px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .button {
     font-size: 14px;
@@ -182,7 +187,6 @@ h2 {
 /*партнеры*/
 .partners {
     background: #404149;
-    height: 364px;
 }
 .partners-h2 {
     padding-top: 90px;
@@ -192,6 +196,7 @@ h2 {
 }
 .partners-item {
     display: flex;
+    padding-bottom: 80px;
 }
 .partners-item>div {
     padding-top: 30px;
@@ -282,4 +287,90 @@ h2 {
     height: 82px;
     justify-content: space-between;
     align-items: center;
+}
+@media screen and (max-width: 450px) {
+    .wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+    .header p {
+        box-sizing: border-box;
+        padding-bottom: 30px;
+    }
+    .satistic {
+        flex-direction: column;
+        width: 100%;
+        top: 314px;
+    }
+    .number {
+        text-align: center;
+    }
+    .projects-main {
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .projects-line {
+        display: none;
+    }
+    .projects-text {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .clever-project {
+        text-align: center;
+        display: block; 
+    }
+    .clever-h {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .clever-txt {
+        font-size: 16px;
+        text-align: center;
+    }
+    .works {
+        padding: 0px;
+    }    
+    .works-item-one {
+        margin: 10px auto;
+    }
+    .photos {
+    padding-bottom: 0px;
+    }
+    .partners-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .partners-item>div {
+        padding-right: 0;
+    }
+    .feedback {
+        margin-bottom: 30px; 
+    }
+    .feedback-main {
+        flex-direction: column;
+    }
+    .feedback-main-one {
+        margin: 0 3%;
+        margin-bottom: 3%;
+    }
+    .feedback-p {
+        margin: 0 3%;
+        flex-wrap: wrap;
+    }
+    .feedback-p p:nth-child(1), .feedback-p p:nth-child(2) {
+        padding-right: 0;
+    }
+    .feedback-p>p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contacts {
+        margin-top: 50px;
+    }
 }
